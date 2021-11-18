@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Buenas tardes
+=======
+Archivo cambiado por Jefer
+>>>>>>> 977bc737d9ac1cc71f9b8dbfaa57ea5498413bb8
