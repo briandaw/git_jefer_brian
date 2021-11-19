@@ -21,32 +21,3 @@ print_r("La memòria d'aquesta escena per a mi és com una fotografia,
     print_r($color2);
     echo nl2br(" \n ");
 ?>
-<?php
-//4//
-    $personas = array("Sophia" => "31","Jacob" => "41",
-      "William" => "39", "Ramesh" => "40");
-      //a//
-      echo nl2br(" \n ");
-      asort($personas);
-      foreach($personas as $grup){
-        echo $grup.nl2br(" \r ");
-      }
-      //b//
-      echo nl2br(" \n ");
-      ksort($personas);
-      foreach($personas as $grup2){
-        echo $grup2.nl2br(" \r ");
-      }
-      //c//
-      echo nl2br(" \n ");
-      arsort($personas);
-      foreach($personas as $grup3){
-        echo $grup3.nl2br(" \r ");
-      }
-      //d//
-      echo nl2br(" \n ");
-      krsort($personas);
-      foreach($personas as $grup4){
-        echo $grup4.nl2br(" \r ");
-      }
-?>
