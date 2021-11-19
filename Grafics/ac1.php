@@ -43,10 +43,5 @@ print_r("La memòria d'aquesta escena per a mi és com una fotografia,
       foreach($personas as $grup3){
         echo $grup3.nl2br(" \r ");
       }
-      //d//
-      echo nl2br(" \n ");
-      krsort($personas);
-      foreach($personas as $grup4){
-        echo $grup4.nl2br(" \r ");
-      }
+      
 ?>
