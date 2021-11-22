@@ -43,5 +43,6 @@ print_r("La memòria d'aquesta escena per a mi és com una fotografia,
       foreach($personas as $grup3){
         echo $grup3.nl2br(" \r ");
       }
+      echo "Buenos dias";
       
 ?>
